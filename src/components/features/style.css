@@ -1,0 +1,38 @@
+.feature-area {
+    position: relative;
+    z-index: 2;
+    padding: 50px 0;
+    padding-top: 120px;
+}
+.feature-area:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(#ffffff00, #ffffff00, #ffffff00, #ffffff00, #18153dd6, #18153d);
+    z-index: -1;
+}
+.feature-area .content-block {
+    min-height: 445px;
+}
+.feature-area img.features-backg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.content-block {
+  min-height: 390px !important;
+}
+
+.content-block p {
+    padding-bottom: 10px !important;
+}
+ p.nopadding {
+    padding-bottom: 0px !important;
+ }

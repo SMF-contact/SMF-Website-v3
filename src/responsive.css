@@ -1,0 +1,494 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .menu-area ul {
+        margin-right: -25px;
+    }
+    .hero-area {
+        padding-top: 135px;
+    }
+    .copyAddress {
+        margin-top: 100px;
+    }
+    .brands {flex-wrap: wrap;max-width: 84%;margin: auto;margin-top: 50px;justify-content: space-evenly;}
+
+.willMove {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+}
+.brands img{
+    margin: auto;
+}
+.content-block.btm_about{
+    min-height: 625px;
+}
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container-fluid {
+        padding: 0 10px;
+    }
+
+    .menu-area ul {
+        margin-right: -40px;
+    }
+
+    .menu-area ul li a {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+    .hero-area {
+        padding-top: 135px;
+    }
+    .brands {flex-wrap: wrap;max-width: 84%;margin: auto;margin-top: 50px;justify-content: space-evenly;}
+
+.willMove {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+}
+.brands img{
+    margin: auto;
+}
+.about-area img.aboutShape {
+    top: 70px;
+    left: -350px;
+}
+
+.about-area {
+    padding-top: 195px;
+}
+.roadmap-area{
+    padding-bottom: 100px;
+}
+.roadmapWrp-blk h2{
+    margin-right: 115px;
+}
+.swiper {
+        padding-right: 81px;}
+
+}
+
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-area ul {
+        display: none;
+    }
+    .hero-area .row:first-child {
+        flex-direction: column-reverse;
+    }
+
+    .hero-img {
+        text-align: center;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .hero-area {
+        padding-top: 125px;
+    }
+
+    .hero-wrp {
+        margin-top: 40px;
+    }
+
+    .copyAddress label {
+        width: 80%;
+        margin: auto;
+    }
+    .brands {flex-wrap: wrap;max-width: 100%;margin: auto;margin-top: 50px;justify-content: space-evenly;}
+
+    .willMove {
+        flex: 0 0 33%;
+        margin-bottom: 20px;
+    }
+    .willMove img{
+        margin: auto;
+    }
+    .about-area {
+        padding-top: 200px;
+    }
+
+
+    .content-block.btm_about {
+        min-height: auto;
+        max-width: 550px;
+        margin: auto;
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+    .section-title h3 {
+        font-size: 38px;}
+    .feature-area .content-block {
+        min-height: 535px;
+    }
+    .swiper {
+        width: 90%;
+        padding-right: 75px;
+    }
+    .roadmap-area {
+        padding-bottom: 120px;
+    }
+    .transactionTax.tknTop {
+        max-width: 80%;
+        margin: 50px auto 0;
+    }
+    .proof_of_lock {
+        margin-bottom: 100px;
+    }
+    .proof_of_lock-btns > button {
+        margin: 0 8px;
+    }
+    .presale-wrp {
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .presale-wrp ul li{
+        width: 40%;
+    }
+    .airdrop p{
+        font-size: 18px;
+    }
+    .willMove button img{
+        width: 170px;
+
+    }
+    .about-area img.aboutShape {
+        top: 65px;
+        max-height: 150px;
+        left: -100px;
+    }
+}
+
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+    .menu-area ul {
+        display: none;
+    }
+    .container-fluid{
+        padding: 0 10px;
+    }
+    .fixed-social a svg {
+        width: 30px;
+    }
+
+    .fixed-social a {
+        margin: 1px 0;
+    }
+
+    .fixed-social {
+      padding: 0px 0;
+      width: 40px;
+    }
+    .hero-area .row:first-child {
+        flex-direction: column-reverse;
+    }
+
+    .hero-img {
+        text-align: center;
+        max-width: 280px;
+        margin: auto;
+    }
+    .hero-wrp h2{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .hero-wrp p.whiteColor{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .hero-area {
+        padding-top: 125px;
+    }
+
+    .hero-wrp {
+        margin-top: 40px;
+    }
+    .hero-wrp .countDownItIs{
+        margin-top: 50px;
+    }
+
+    .copyAddress label {
+        margin: auto;
+        max-width: 315px;
+    }
+    .brands {flex-wrap: wrap;max-width: 100%;margin: auto;margin-top: 50px;justify-content: space-evenly;}
+
+    .willMove {
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+    .willMove img{
+        margin: auto;
+        width: 130px;
+    }
+    .willMove:nth-child(2) img {
+        width: 100px;
+    }
+    .about-area {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+
+
+    .content-block.btm_about {
+        min-height: auto;
+        max-width: 550px;
+        margin: auto;
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+    .feature-area .section-title {
+        margin-bottom: 10px;
+    }
+    .section-title h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .content-block{
+        padding: 30px;
+    }
+    .content-block h5{
+        margin-bottom: 25px;
+    }
+    .feature-area .content-block {
+        min-height: auto;
+    }
+    .swiper {
+        width: 90%;
+        padding-right: 75px;
+    }
+    .roadmap-area {
+        padding: 70px 0 100px;
+    }
+
+    .roadmapWrp-blk {
+        left: 25px;
+    }
+
+    .roadmapWrp-blk h2:after {
+        right: -20px;
+    }
+
+    .roadmapWrp-blk h2 {
+        position: absolute;
+        width: 100%;
+        top: -25px;
+        left: -10px;
+        font-size: 30px;
+    }
+
+    .roadmapWrp-blk ul {
+        margin-top: 30px;
+    }
+    .proof_of_lock {
+        margin-bottom: 100px;
+    }
+    .proof_of_lock-btns > button {
+        margin: 8px;
+    }
+    .presale-wrp {
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .presale-wrp ul li{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .presale-wrp ul li b {
+        font-size: 18px;
+    }
+    .countDownItIs {
+        margin: auto;
+    }
+    .airdrop{
+        margin-bottom: 30px;
+    }
+    .airdrop p{
+        font-size: 16px;
+    }
+    .airdrop:after{
+        height: 97%;
+    }
+    .willMove button img {
+        width: 115px;
+    }
+    .tkn_distribution_wrp {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainPieCgar {
+        margin: 20px;
+        margin-bottom: 30px;
+    }
+
+    ul.ul_data-list {
+        margin: 0;
+    }
+    .transactionTax.tknTop {
+        max-width: 100%;
+        margin: 50px auto 0;
+    }
+    .team-area{
+        padding: 80px 0 50px;
+    }
+    .teamBlk {
+        max-width: 280px;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 25px 20px;
+    }
+
+    .teamBlk img {
+        width: 100%;
+        height: 150px;
+        max-width: 150px;
+        object-fit: cover;
+    }
+    .parners {
+        display: unset;
+    }
+    .partnersColumn {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .parners button{
+        padding: 10px 0;
+    }
+    .parners:after {
+        height: 100%;
+        width: 1px;
+        left: 50%;
+    }
+
+    .partnersColumn:nth-child(2)::before, .partnersColumn:nth-child(2)::after {
+        width: 105%;
+        height: 1px;
+        top: -10px;
+    }
+
+    .partnersColumn:nth-child(2)::before {
+        top: auto;
+        bottom: 0;
+    }
+    .mt-5{
+        margin-top: 2rem!important;
+    }
+    .footer-top {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    a.footer-logo {
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+    .other_pages {
+        margin-bottom: 8px;
+    }
+
+
+    .footer-social {
+        text-align: center;
+    }
+    .footer-social a svg {
+        width: 35px;
+    }
+    .footer-social a {
+        margin-bottom: 10px;
+        margin-left: 7px;
+    }
+    button.scrollToUp {
+        right: 70px;
+        bottom: 30px;
+    }
+    .about-area img.aboutShape {
+        top: 65px;
+        max-height: 130px;
+        left: -100px;
+    }
+    .feature-area ,
+    .presale-area ,
+    .pertner-area ,
+    .tokenomics-area{
+        padding-top: 90px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* mobile menu */
+@media only screen and (max-width: 991px) {
+    .mobileMenuI{
+        display: block;
+    }
+    .btns button.theme-btn:after {
+        background: #201b52;
+    }
+    .menu-area {
+        position: fixed;
+        background: #201b52;
+        width: 300px;
+        right: 0;
+        top: 0;
+        display: block;
+        height: 100vh;
+        min-height: 400px;
+        overflow: auto;
+        box-shadow: 23px 0 30px 10px #ffffff3d;
+        margin-right: -300px;
+        transition: .3s;
+    }
+
+    .menu-area ul {
+        display: block;
+        padding: 25px;
+        padding-top: 70px;
+    }
+
+    .menu-area ul li {
+        padding: 10px 0;
+        border-bottom: 1px solid #ffffff12;
+    }
+
+    .menu-area.active {
+        margin: 0;
+    }
+}
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+}

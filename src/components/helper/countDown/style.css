@@ -1,0 +1,62 @@
+.countDownItIs {
+  width: 280px;
+  background: rgba(45, 38, 138, 0.3);
+  text-align: center;
+  /* box-shadow: inset 0 3px 10px rgba(255, 255, 255, 0.3); */
+  border-radius: 10px;
+  padding: 20px;
+  border: 4px solid transparent;
+  transition: .3s;
+}
+.countDownItIs:hover {
+  border-color: #332d73;
+}
+.countDownItIs h4.title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #BDE0A2;
+}
+
+.countDownItIs .countdown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.countDownItIs .countdown-wrapper .time-section {
+  text-align: center;
+}
+
+.countDownItIs .countdown-wrapper .time-section .time {
+  font-size: 28px;
+  color: #fff;
+  display: block;
+  line-height: 28px;
+}
+
+.countDownItIs .countdown-wrapper .time-section small.time-text {
+  display: block;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.countDownItIs button.theme-btn:after {
+  background: #221c67;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

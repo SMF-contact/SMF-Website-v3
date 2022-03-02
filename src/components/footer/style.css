@@ -1,0 +1,51 @@
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-left: 10px;
+    filter: grayscale(1);
+    opacity: .5;
+    transition: .3s;
+}
+.footer-social a:hover{
+    transform: scale(1.1);
+}
+.footer-social a:hover {
+    filter: unset;
+    opacity: 1;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #7C7D8D;
+}
+
+.other_pages a {
+    color: #7C7D8D;
+    margin-right: 20px;
+}
+
+.other_pages {
+    font-size: 14px;
+}
+
+.footer-area {
+    padding: 40px 0;
+}
+
+.footer-social a svg {
+    width: 40px;
+    height: 40px;
+}

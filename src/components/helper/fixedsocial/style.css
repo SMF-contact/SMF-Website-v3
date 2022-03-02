@@ -1,0 +1,154 @@
+.fixed-social {
+    position: fixed;
+    top: 50%;
+    width: max-content;
+    right: 2%;
+    transform: translateY(-50%);
+    z-index: 3;
+    background: rgba(35, 58, 171, 0.33);
+    padding: 10px 4px;
+    border-radius: 10px;
+    width: 55px;
+    text-align: center;
+}
+.fixed-social a {
+    display: block;
+    margin: 10px 0;
+    filter: grayscale(1);
+    transition: .3s;
+    opacity: .5;
+}
+.fixed-social a:hover {
+    opacity: 1;
+    filter: unset;
+}
+.fixed-social a:hover svg {
+    transform: scale(1.1);
+}
+.fixed-social a svg {
+    font-size: 40px;
+    height: 40px;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circle-social {
+    position: fixed;
+    top: 55%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+button.socialBtn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    border: none;
+    background: #2b3086;
+    outline: none;
+}
+button.socialBtn svg {
+    width: 20px;
+    height: 30px;
+    filter: invert(1);
+}
+.circle-social a.csocial {
+    position: absolute;
+    right: 0px;
+    top: -95px; 
+    visibility: hidden;
+    /* transform: scale(0); */
+    opacity: 0;
+    transition: .3s;
+}
+.circle-social a.csocial svg{
+    transition: .3s;
+    opacity: .4;
+}
+.circle-social a.csocial svg path {
+    fill: #53d29c;
+}
+.circle-social a.csocial svg:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.circle-social a.csocial:nth-child(2) {
+    top: -70px;
+    right: 45px;
+    transition-delay: .1s;
+}
+
+.circle-social a.csocial:nth-child(3) {
+    top: -22px;
+    right: 70px;
+    transition-delay: .2s;
+}
+
+.circle-social a.csocial:nth-child(4) {
+    top: 31px;
+    right: 75px;
+    transition-delay: .3s;
+}
+
+.circle-social a.csocial:nth-child(5) {
+    top: 85px;
+    right: 55px;
+    transition-delay: .4s;
+}
+
+.circle-social a.csocial:nth-child(6) {
+    top: 110px;
+    right: 5px;
+    transition-delay: .5s;
+}
+
+
+.circle-social:hover a.csocial {  
+    visibility: visible;
+    /* transform: scale(1); */
+    opacity: 1;
+}
+.circle-social:hover a.csocial:nth-child(2) { 
+    right: 50px;  
+}
+.circle-social:hover a.csocial:nth-child(3) { 
+    right: 75px;  
+}
+.circle-social:hover a.csocial:nth-child(4) { 
+    right: 80px;  
+}
+.circle-social:hover a.csocial:nth-child(5) { 
+    right: 59px;  
+} 
+.circle-social:hover a.csocial:nth-child(6) { 
+    right: 10px;  
+} 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,235 @@
+.tokenomics-area {
+    position: relative;
+    z-index: 2;
+    padding-top: 0px;
+}
+.tokenomics-area img.tokenomics-backg {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+}
+.stickChart {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+
+.stickChart .secondBlk {
+    width: 100px;
+    background: #3290ED;
+}
+
+.stickChart .firstBlk {
+    width: 100%;
+    background: #8CA8FF;
+}
+
+.stickChart .thirdBlk {
+    background: #7AF0D1;
+    width: 140px;
+}
+.stickChart > div:first-child{
+    border-radius: 20px 0 0 20px;
+}
+.stickChart > div:last-child{
+    border-radius: 0 20px 20px 0;
+}
+.stickChart > div {
+    width: 100%;
+    transition: .3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.stickChart > div:hover {
+    opacity: .9;
+}
+.tknTop h5 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.stickChart > div > span {
+    position: absolute;
+    top: -30px;
+    background: red;
+    padding: 1px 10px;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    background: #000;
+    color: #fff;
+    box-shadow: 0 0px 20px -3px #ffffff36;
+    font-size: 14px;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.stickChart > div:hover > span {
+    opacity: 1;
+    visibility: visible;
+}
+.tknTop h5 span {
+    color: #6C757D;
+    margin-left: 30px;
+}
+.tknTop ul {
+    display: block;
+}
+
+.tknTop ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #979EA5;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.recharts-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.the-bar-chart {
+    width: 100%;
+    margin: 80px 0;
+}
+
+.the-bar-chart h5 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.the-bar-chart .recharts-wrapper {
+    width: 100% !important;
+    height: 800px !important;
+}
+
+.the-bar-chart .recharts-wrapper > svg.recharts-surface {
+    width: 100%;
+    height: 800px;
+    font-size: 6px;
+}
+
+.the-bar-chart .recharts-wrapper > .recharts-legend-wrapper {
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+.proof_of_lock {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.proof_of_lock h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.proof_of_lock-btns > button {
+    margin: 0 30px;
+}
+.tkn_distribution_wrp {
+    display: flex;
+}
+
+ul.ul_data-list {
+    margin-left: 45px;
+}
+
+ul.ul_data-list li > div {min-width: 220px;display: flex;align-items: center;}
+
+ul.ul_data-list li > div small {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.mainPieCgar {
+    width: max-content;
+    position: relative;
+    margin-top: 30px;
+}
+
+.mainPieCgar p {position: absolute;margin: 0;top: 50%;left: 50%;transform: translate(-50%,-50%);z-index: 2;text-align: center;color: #fff;font-size: 22px;max-width: 125px;}
+
+.mainPieCgar p small {
+    font-size: 65%;
+    display: block;
+    color: #BDE0A2;
+}
+
+.customTooltip{
+    width: auto;
+    height: auto;
+    background: rgb(22, 18, 67);
+    position: absolute;
+    top: 5355px;
+    left: 412px;
+    z-index: 9999;
+    box-shadow: rgb(255 255 255 / 56%) 0px 0px 14px;
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    left: 0;
+}
+.customTooltip.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.tokenomics-step {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tkn-step {
+    max-width: 290px;
+    margin-bottom: 50px;
+    padding: 0 15px;
+}
+
+.tokenomics-step img {
+    max-height: 80px;
+}
+
+.tokenomics-step h5 {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.tokenomics-step  p {
+    color: #979EA5;
+    margin: 0;
+    line-height: 22px;
+}
+
+
+@media only screen and (max-width:767px) {
+    .tokenomics-step {
+        flex-wrap: wrap;
+    }
+    .tokenomics-step img {
+        max-height: 60px;
+    }
+}

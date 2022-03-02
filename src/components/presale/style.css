@@ -1,0 +1,158 @@
+.presale-area{
+    padding-top: 120px;
+}
+.presale-wrp {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.presale-wrp ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.presale-wrp ul li {
+    width: 22%;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 15px 30px;
+    text-align: left;
+    background: linear-gradient(90deg, rgb(29 24 87 / 0%), #5b78ff, rgb(29 24 87 / 0%));
+    z-index: 2;
+}
+
+.presale-wrp ul li b {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.presale-wrp ul li span {
+    display: block;
+    margin-top: 20px;
+    color: #BDE0A2;
+    font-size: 16px;
+}
+
+.presale-wrp ul li:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 95%;
+    background: #161243;
+    z-index: -1;
+    transform: translateY(-50%);
+    transition: .3s;
+}
+
+.presale-wrp ul li:hover:after {
+    opacity: 0;
+}
+.presale-wrp ul li:first-child {
+    border-radius: 30px 0 0 30px;
+    background: linear-gradient(90deg, #5b78ff, rgb(29 24 87 / 0%));
+}
+.presale-wrp ul li:first-child:after {
+    left: 3px;
+    border-radius: 28px;
+}
+
+.presale-wrp ul li:last-child {
+    border-radius: 0 30px 30px 0;
+    background: linear-gradient(-90deg, #5b78ff, rgb(29 24 87 / 0%));
+}
+.presale-wrp ul li:last-child:after {
+    left: auto;
+    right: 3px;
+    border-radius: 28px;
+}
+.airdrop {
+    padding: 20px;
+    background: linear-gradient(45deg, rgba(52, 43, 160, 1), rgba(91, 120, 255, 1),rgba(52, 43, 160, 1));
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+.airdrop:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 99%;
+    height: 96%;
+    background: #161243;
+    z-index: -1;
+    border-radius: 25px;
+    transform: translate(-50%,-50%);
+    border-top-left-radius: 0;
+    transition: .3s;
+}
+
+.airdrop:hover:after {
+    background: #1c175a;
+    width: 99.6%;
+    height: 99%;
+}
+.airdrop:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(#ffffff1f, transparent, transparent);
+    top: 1px;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: .3s;
+}
+.airdrop:hover:before{
+    opacity: 1;
+}
+.airdrop p {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    font-family: DaxRegular;
+    line-height: 37px;
+}
+
+.airdrop h4 {
+    font-size: 24px; 
+    color: #BDE0A2;
+    transition: .3s;
+}
+.airdrop:hover h4 {
+    color: #97DAF7;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

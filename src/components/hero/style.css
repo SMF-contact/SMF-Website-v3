@@ -1,0 +1,115 @@
+.hero-area {
+    padding-top: 200px;
+    padding-bottom: 50px;
+    position: relative;
+    background-color: #0f0b43;
+    z-index: 2;
+}
+.hero-area img.hero_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    -webkit-user-drag: none;
+    z-index: -1;
+}
+.hero-wrp h2 {
+    font-size: 48px;
+}
+
+.hero-wrp h2 span {
+    color: #BDE0A2;
+}
+
+.hero-wrp  p.whiteColor {
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-size: 24px;
+}
+.copyAddress {
+    text-align: center;
+    margin-top: 50px;
+}
+.copyAddress p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    color: #BDE0A2;
+}
+.copyAddress span.copied_success {
+    text-transform: capitalize;
+    margin-top: 15px;
+    display: block;
+}
+.copyAddress label {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #E9ECEF;
+    box-shadow: inset 0px 0px 6px 1px #000000;
+}
+.copyAddress label input {
+    width: 100%;
+    height: 48px;
+    font-size: 17px;
+    border: none;
+    padding: 10px 20px;
+    color: #7e7e7e;
+    background: none;
+    font-weight: 500;
+    font-family: 'IBM Plex Mono', monospace;
+    cursor: pointer;
+    transition: .3s;
+}
+.copyAddress label input:hover{
+    color: #000;
+}
+.copyAddress label button {
+    border: none;
+    width: 230px;
+    height: 48px;
+    border-radius: 20px 0 0 20px;
+    color: #212529;
+    background: #FFC107;
+    box-shadow: inset -2px 0px 7px #000000;
+}
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.brands img {
+    display: block;
+    opacity: .5;
+    transition: .3s;
+    cursor: pointer;
+}
+.brands img:hover {
+    /* transform: scale(1.04); */
+    opacity: 1;
+}
+.hero-wrp .countDownItIs {
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

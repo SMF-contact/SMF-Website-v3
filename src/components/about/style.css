@@ -1,0 +1,39 @@
+.about-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 215px;
+    background: linear-gradient(rgb(15 11 67), rgba(13, 9, 59, 1));
+}
+.about-area img.aboutShape {
+    position: absolute;
+    top: 115px;
+    left: -160px;
+    /* max-height: 280px; */
+}
+.about-area img.circleShape {
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+.section-title {
+    margin-bottom: 100px;
+}
+
+.section-title h3 {
+    font-size: 48px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.content-block.btm_about {
+  min-height: 500px !important;
+}
+
+.content-block.intro_about {
+  min-height: 50px !important;
+}
+
+p {
+    padding-bottom: 10px !important;
+}

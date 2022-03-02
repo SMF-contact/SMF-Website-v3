@@ -1,0 +1,89 @@
+.pertner-area{
+    padding-top: 120px;
+}
+.parners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.parners button {
+    border: none;
+    background: none;
+    opacity: .5;
+    transition: .3s;
+    display: block;
+    padding: 40px 0;
+    margin: auto;
+}
+.parners button:hover {
+    /* transform: scale(1.1); */
+    opacity: 1;
+}
+.partnersColumn {
+    width: 33.33%;
+    position: relative;
+}
+.partnersColumn:nth-child(2) .willMove,
+.partnersColumn:nth-child(2) button {
+    margin: auto;
+}
+.partnersColumn:nth-child(2)::before,
+.partnersColumn:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1),rgba(255, 255, 255, 0));
+    right: 0;
+    top: 0;
+    opacity: .2;
+}
+
+.partnersColumn:nth-child(2)::before{
+    right: auto;
+    left: 0;
+}
+/* 
+.partnersColumn:last-child .willMove,
+.partnersColumn:last-child button {
+    margin-left: auto;
+    margin-right: 0;
+} */
+.parners:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    opacity: .2;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1),rgba(255, 255, 255, 0));
+} 
+
+.pertner-area img.PertnerShape {
+    width: 100%;
+    margin-top: 50px; 
+    -webkit-user-drag: none;
+    -webkit-user-drag: none;
+}
+.parners button img {
+    max-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
