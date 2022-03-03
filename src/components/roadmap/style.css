@@ -57,14 +57,17 @@
     content: "";
     width: 15px;
     height: 15px;
-    background: #79C043;
+    background: red;
     position: absolute;
     top: 10px;
     right: -75px;
     border-radius: 50%;
-    box-shadow: 0px 0px 11px 8px #79c0437d;
+    box-shadow: 0px 0px 11px 8px #ff000059;
 }
-
+.swiper-slide.swiper-slide-active .roadmapWrp-blk h2:after { 
+    background: #8ff7a2; 
+    box-shadow: 0px 0px 11px 8px #8ff7a266;
+}
 
 
 

@@ -51,7 +51,7 @@ function Team() {
                         img={TeamAvater2} 
                         name={"Florian"} 
                         position="Head of Marketing" 
-                        content="Father. Beliver. Visionary. Master of Arts in managment - education - diversity.
+                        content="Father. Beliver. Visionary. Master of Arts in management - education - diversity.
                         You dont need to be intelligent to be Smart, you just need education."
                     />
                     <TeamBlk 
@@ -64,7 +64,7 @@ function Team() {
                         img={TeamAvater4}
                         name={"Donna"} 
                         position="Chief Legal Officer" 
-                        content="Law enthusiast with a passion for the fine print and policy implications of digital currencies. Living by the motto of high standard of professional conduct, in the realm of digital innovation where it resonates well that « Only lawyers and painters can turn white into black »"
+                        content="Law enthusiast with a passion for the fine print and policy implications of digital currencies. Living by the motto of high standard of professional conduct, in the realm of digital innovation where it resonates well that « Only lawyers and painters can turn white into black »."
                     />
                     <TeamBlk 
                         img={TeamAvater5} 
@@ -88,7 +88,7 @@ function Team() {
                         img={TeamAvater8} 
                         name={"Tony"} 
                         position="Editor" 
-                        content="Believer and a follower of crypto on the international market sinse a long time trader based on my experience in the creation of several startups"
+                        content="Believer and a follower of crypto on the international market sinse a long time trader based on my experience in the creation of several startups."
                     />
                 </div>
             </div>

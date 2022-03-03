@@ -26,7 +26,7 @@ function About() {
                     <div className="col-lg-12">
                         <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
                             <ContentBlock classNames="intro_about mt-5">
-                                <p>Smart Finance is a decentralised platform powered by Artificial Intelligence. The platform offers Defi services such as a Whale Tracker and an Anti-Scam Scanner, and a P2P Marketplace where buyers and sellers can make profitable deals.</p>
+                                <p>Smart Finance is a decentralised platform powered by Artificial Intelligence. The platform offers Defi services such as the WhaleTrackerAI, the AntiScamAI, the AutoTradingAI and a P2P Marketplace where buyers and sellers can make profitable deals.</p>
                                 <p>A sophisticated artificial intelligence technology works at the back end of the Smart Finance platform. The platform has taken digital asset trading to a whole new level through the accuracy and speed of Artificial Intelligence which can increase profitability by trading smarter.</p>
                             </ContentBlock>
                         </ScrollAnimation>
